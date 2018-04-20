@@ -1,10 +1,12 @@
 img{
- width:50%;
+ width:100%;
   border-radius: 50%;
+  width: 200px;
+  float: right;
 }
 
 body{
-  background-color: yellow;
+  
 }
 .wrapper{
   width:100%;
@@ -12,13 +14,13 @@ body{
 h1{
   color: green;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-family: monospace;
 
 }
 .test-box{
   border: 2px solid red;
-  padding: 10px;
+  padding: 50px;
   text-align: center;
   background-color: yellow;
   width: 100%;
@@ -29,30 +31,30 @@ h1{
 
 }
 .hello{
-  font-size:35px;
+  font-size:25px;
 }
 
 h4{
   color: blue;
-  font-size: 35px;
+  font-size: 25px;
 
 }
 .H3{
-  font-size: 35px;
+  font-size: 25px;
   color: red;
 }
 .P3{
   color: black;
-  font-size: 35px;
+  font-size: 25px;
 }
 .P4{
   color: black;
-  font-size: 35px;
+  font-size: 25px;
   font-family: monospace;
 }
 .mango{
   color: black;
-  font-size: 35px;
+  font-size: 25px;
   font-family: serif;
 }
 
@@ -63,7 +65,7 @@ body *:not(img){
 }
 @media screen and (min-width: 480px) {
     body {
-        background-color: yellow;
+        background-color: black;
         color: white;
     }
 }
